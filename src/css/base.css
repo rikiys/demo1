@@ -1,0 +1,63 @@
+﻿@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; /*去掉input获取焦点后的外边框*/}
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动,影响布局*/
+img {border:0; vertical-align:middle; }  /*  去掉图片底测默认的3像素空白缝隙
+还可以采用display:block*/
+table { border-collapse:collapse; }/*合并边框*/
+body {
+    font: 12px/1.5 "Microsoft YaHei","tahoma","arial","Hiragino Sans GB","\\5b8b\4f53","sans-serif";/*unicode 编码 宋体*/
+    color:#666;
+    background:#F6F6F6;
+}
+    
+.banxin {
+	width: 1190px;
+	margin: 0 auto;
+}
+/*清除浮动 -- 减少浏览器渲染负担 -- 推荐*/
+.clearfix:before,.clearfix:after{
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a{color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #f10215!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1190px;margin:0 auto;
+
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}

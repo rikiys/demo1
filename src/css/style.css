@@ -1427,8 +1427,10 @@ footer {
 /*点击登录模块*/
 .jd_login {
 	position: absolute;
-	left: 35%;
-	top: 15%;
+	left: 50%;
+	top: 50%;
+    margin-left:208px;
+    margin-top:251px;
 	z-index: 10000;
 	border:4px solid rgba(0,0,0,.1);
 	-webkit-border-radius:5px;
